@@ -1,0 +1,13 @@
+.paizao {
+  justify-content: space-between;
+  display: inline-block;
+  margin-left: ;
+  position: relative;
+}
+.div1,
+.div2 {
+  background-color: aquamarine;
+}
+.paidopai {
+  display: flex;
+}

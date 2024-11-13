@@ -1,0 +1,133 @@
+/* estilo do cadastro.php/html */
+
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: url(editfundo.jpeg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.cadastro {
+  align-items: center;
+  text-align: center;
+  background-color: rgb(110, 108, 108);
+  padding: 45px;
+  border-radius: 8px;
+  padding-top: 2px;
+}
+
+.posicionar-cad {
+  justify-content: center;
+  display: flex;
+}
+form {
+}
+.div-posicaologo {
+  position: relative;
+}
+.div-logo {
+  position: absolute;
+  display: flex;
+  right: 1px;
+  top: 10px;
+}
+img {
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top: 18px;
+  left: -15px;
+}
+.butão {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3 ease;
+}
+.butão:hover {
+  background-color: rgb(1, 135, 253);
+}
+#sobre {
+  margin-top: 2px;
+  font-size: 10px;
+}
+p {
+  font-size: 10px;
+}
+#butao-log {
+  text-decoration: none;
+}
+input {
+  border: none;
+  border-radius: 3px;
+  width: 100%; /* O input ocupará toda a largura disponível */
+  max-width: 350px; /* Tamanho máximo para o input */
+  background-color: rgb(225, 224, 224);
+  padding: 3px;
+}
+#cadastrar {
+  cursor: pointer;
+}
+#cadastrar:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(55, 198, 255);
+}
+.div-log {
+  position: relative;
+}
+.grupo-labels {
+  display: flex;
+  flex-direction: column; /* Coloca o label em cima do input */
+  align-items: flex-start;
+  margin-bottom: 15px;
+  width: 100%; /* largura total para alinhamento */
+}
+label {
+  font-weight: lighter;
+  font-size: 20px;
+  color: rgb(55, 198, 255);
+}
+h2 {
+  font-size: 30px;
+  color: rgb(55, 198, 255);
+}
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.679);
+}
+/* Media query para telas menores */
+@media (max-width: 530px) {
+}
+
+@media (max-width: 530px) {
+  .butão {
+    display: block;
+    margin: 20px auto 0;
+    width: 90%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input {
+    width: 100%;
+    max-width: none;
+  }
+
+  .cadastro {
+    padding: 20px;
+  }
+}

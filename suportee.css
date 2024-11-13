@@ -1,0 +1,51 @@
+/*  estilo do suporte.php/html */
+
+body {
+  background-color: rgb(211, 211, 211);
+}
+.titulo {
+  justify-content: center;
+  display: flex;
+}
+.caixa {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+input {
+  border-radius: 5px;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(221, 221, 220);
+  border: none;
+}
+h1 {
+  color: rgb(0, 183, 255);
+  font-size: 60px;
+}
+
+.numero {
+  position: static;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+label {
+  color: rgb(0, 111, 255);
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.div-digitar {
+  margin-top: 20px;
+}

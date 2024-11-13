@@ -1,0 +1,154 @@
+/* CSS */
+
+/* Estilo do login.php/html */
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  background-image: url("fundoblack.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cabecalho {
+  background-color: rgb(43, 42, 42);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+#perf {
+  width: 70px;
+  height: 70px;
+}
+
+.links {
+  display: flex;
+  gap: 55px;
+}
+
+.div-perfil {
+  margin-right: 40px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(0, 166, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: blue;
+  color: rgb(0, 247, 255);
+  border-radius: 5px;
+}
+
+.div-formulario {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 40%;
+  height: auto;
+  border-radius: 15px;
+  position: relative;
+  padding: 0px;
+}
+
+.posicionar-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 55%;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #d8d7d7d3;
+  border: none;
+}
+
+h2 {
+  font-size: 45px;
+  color: rgb(16, 175, 255);
+}
+
+label {
+  font-size: 30px;
+  color: rgb(21, 165, 255);
+}
+
+#enviar {
+  margin-top: 15px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  width: 55%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#enviar:hover {
+  background-color: rgb(13, 207, 20);
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+#esqueci {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+#esqueci:hover {
+  color: rgb(0, 94, 255);
+  background-color: white;
+}
+
+.esquece {
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos para a espada */
+.posicionar-espada {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.div-espada {
+  position: absolute;
+  top: -130px; /* Posição original da espada acima do h2 */
+  left: 25px;
+}
+
+#espada {
+  width: 90px;
+}
+
+/* Media Queries */
+
+/* Para telas menores que 800px */
+@media screen and (max-width: 800px) {
+  /* Movendo a espada para baixo do título h2 */
+  .div-espada {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #espada {
+    width: 70px;
+  }
+}
